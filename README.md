@@ -8,7 +8,7 @@ All the rovers will be dealt with sequentially (as soon as rover number 1 finish
 There are several options for running the progam...
 
 ---RUN IN AN IDE---
-You can run the Mars Rover program in an IDE, such as Intellij or Eclipse, by copying the contents of the folder (the src folder containing the 2 classes Rover.java and Mars_Rover.java as well as the index.txt file) into a new project or by opening the existing Mars Rover project. 
+You can run the Mars Rover program in an IDE, such as Intellij or Eclipse, by copying the contents of the folder (the src folder containing the 2 classes Rover.java and Mars_Rover.java as well as the test classes) and also the contents of the index.txt file into a new project or by opening the existing Mars Rover project. 
 
 ---COMPILE AND RUN ON THE COMMAND LINE---
 You can easily compile and run the program on the command line. You just need to change into the program directory into the "source" folder (src) and use the command:
@@ -30,4 +30,4 @@ The complexity of the program depends on the size of the input file and the leng
 
 #### V Testing
 In a first phase, manual testing is performed by running the program on different types of input and considering corner cases (all done by changing input.txt file and running Mars_Rover class).
-To ensure more reliaility in a faster way, automed testing is also performed using JUnit library (a unit testing framework for Java programming language). The classes TestRover.java and TestMars_Rover.java are used to test the correctness of the methods declared in Rover and Mars_Rover respectively (the test classes are also included in the source folder and can be run in the same way as the Mars_Rover class).   
+To ensure more reliaility in a faster way, automed testing is also performed using JUnit library (a unit testing framework for Java programming language). The classes RoverTest.java and Mars_RoverTest.java are used to test the correctness of the methods declared in Rover and Mars_Rover respectively (the test classes are also included in the source folder and can be run in the same way as the Mars_Rover class).   
