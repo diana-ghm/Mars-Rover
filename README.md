@@ -13,8 +13,8 @@ You can run the Mars Rover program in an IDE, such as Intellij or Eclipse, by co
 ---COMPILE AND RUN ON THE COMMAND LINE---
 You can easily compile and run the program on the command line. You just need to change into the program directory into the "source" folder (src) and use the command:
 javac Mars_Rover.java
-in order to compile the Mars_Rover class on the command line. If javac is not recognised as an internal or external command, make sure you first set the environment path variable with the command: 
-set path = "C:\Program Files\Java\jdk1.8.0_60\bin" (or change to the folder in which you installed jdk).
+in order to compile the Mars_Rover class on the command line. If javac is not recognised as an internal or external command, make sure you first download the jdk jar and set the environment path variable with the command: 
+set path = "C:\Program Files\Java\jdk1.8.0_60\bin" (or the path to the folder in which you installed jdk).
 After compiling, you can run the program using the java command as following:
 java Mars_Rover.
 You will see the output of the problem in the command prompt.
@@ -30,4 +30,4 @@ The complexity of the program depends on the size of the input file and the leng
 
 #### V Testing
 In a first phase, manual testing is performed by running the program on different types of input and considering corner cases (all done by changing input.txt file and running Mars_Rover class).
-To ensure more reliaility in a faster way, automed testing is also performed using JUnit library (a unit testing framework for Java programming language). 
+To ensure more reliaility in a faster way, automed testing is also performed using JUnit library (a unit testing framework for Java programming language). The classes TestRover.java and TestMars_Rover.java are used to test the correctness of the methods declared in Rover and Mars_Rover respectively (the test classes are also included in the source folder and can be run in the same way as the Mars_Rover class).   
